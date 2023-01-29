@@ -1,0 +1,28 @@
+{
+  "name": "esbuild-plugin-save-server-data",
+  "version": "0.1.0",
+  "description": "An esbuild plugin to generate a json file from distant server before build",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxmock/esbuild-plugin-save-server-data.git"
+  },
+  "scripts": {
+    "test": "node test/esbuild.mjs",
+    "prod": "node test/esbuild.prod.mjs"
+  },
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "json",
+    "server",
+    "http",
+    "https"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.17.3"
+  },
+  "homepage": "https://github.com/mxmock/esbuild-plugin-save-server-data/blob/main/README.md",
+  "author": "Ockode",
+  "license": "MIT"
+}
