@@ -22,6 +22,10 @@
   "devDependencies": {
     "esbuild": "^0.17.3"
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "homepage": "https://github.com/mxmock/esbuild-plugin-save-server-data/blob/main/README.md",
   "author": "Ockode",
   "license": "MIT"
